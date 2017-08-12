@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+
+        var socket = io('https://bot-6415.chat-ai.tk', {secure:true, port:8000});
+        socket.on('connect', function(data) {
+                alert("K");
+        });
+});
+</script>
+</head>
+<body>
+
+</body>
+</html>
